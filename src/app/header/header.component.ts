@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
     title = "It's ya title";
     tagLine = "tagline like you got no tagline";
+    imageUrl = "../assets/book1.jpg";
+    editableTitle = "you can type over me";
 }

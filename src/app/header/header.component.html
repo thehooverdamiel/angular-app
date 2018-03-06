@@ -1,2 +1,10 @@
 <h1 class="elegantshd"> {{ title }} </h1>
-<h1 class="deepshd deepshd-smaller"> {{ tagLine }} </h1>
+<h1 class="deepshd smaller"> {{ tagLine }} </h1>
+<h1 class="xbootstrap smaller">
+    <input class="text-center" 
+            type="text" 
+            [(ngModel)]="editableTitle" 
+            name="editableTitle">
+</h1>
+
+<img [src]="imageUrl"/>
