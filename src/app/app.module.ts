@@ -4,11 +4,13 @@ import { AppComponent } from './app.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
+import { HighlightDirective } from './shared/highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

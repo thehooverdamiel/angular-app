@@ -11,10 +11,11 @@ export class HeaderComponent {
     tagLine = "tagline like you got no tagline";
     imageUrl = "../assets/book1.jpg";
     editableTitle = "you can type over me";
-
+    showLast = false;
     offColor = "";
 
     changeColor() :void {
+        this.showLast = !this.showLast;
         if (this.offColor === "")
             this.offColor = "grey";
         else

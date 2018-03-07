@@ -7,5 +7,7 @@
             name="editableTitle">
 </h1>
 
-<p>In case you wanna see what you wrote but worse: {{ editableTitle }}</p>
+<p highlight>In case you wanna see what you wrote but worse: {{ editableTitle }}</p>
 <img [src]="imageUrl"/>
+
+<h1 class="elegantshd" *ngIf="showLast"> {{ title }} </h1>
