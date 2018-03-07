@@ -14,6 +14,12 @@ export class HeaderComponent {
     showLast = false;
     offColor = "";
 
+    house = [
+        {name: "bathroom", size: "pretty small"},
+        {name: "livingroom", size: "medium-ish"},
+        {name: "hallway", size: 11}
+    ];
+
     changeColor() :void {
         this.showLast = !this.showLast;
         if (this.offColor === "")

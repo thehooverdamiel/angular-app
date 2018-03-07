@@ -11,3 +11,14 @@
 <img [src]="imageUrl"/>
 
 <h1 class="elegantshd" *ngIf="showLast"> {{ title }} </h1>
+
+<table>
+    <tr>
+        <th>Room</th>
+        <th>Size</th>
+    </tr>
+    <tr *ngFor="let room of house">
+        <td>{{ room.name }}</td>
+        <td>{{ room.size }}</td>
+    </tr>
+</table>
