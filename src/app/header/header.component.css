@@ -5,6 +5,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
+    transition: 1s;
   }
   .elegantshd {
     color: #131313;
