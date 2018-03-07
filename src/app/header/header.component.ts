@@ -27,4 +27,13 @@ export class HeaderComponent {
         else
             this.offColor = "";
     }
+
+
+
+    myClassVar = 'text-bigger';
+    myClassVarBoolean = true;
+
+    resizeText() : void {
+        this.myClassVarBoolean = !this.myClassVarBoolean
+    }
 }
